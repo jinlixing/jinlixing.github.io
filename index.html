@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
 <body>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-<div class="container">
-    <h1>学习情况汇总</h1>
-    <div>
-        个人 GitHub 地址：https://github.com/jinlixing
+<div class="jumbotron">
+    <h1 class="display-3">欢迎您，我的朋友！</h1>
+    <p class="lead">这里是我的学习情况总结，希望对您的编程进阶之路有所帮助。</p>
+    <hr class="my-4">
+    <p>这是个人 GitHub 主页项目，使用 Bootstrap4 搭建而成，开发静态站时使用了 browser-sync 来辅助开发。browser-sync 主要用来进行浏览器同步测试，可在 PC、手机、平板 等环境下同步进行测试。</p>
+    <p>开发时使用服务器模式开启 browser-sync 即可：browser-sync start --server --files "**/*.html, **/*.css"</p>
+    <div class="alert alert-danger">本项目整理时间较晚，尚在开发中</div>
+</div>
+
+<div class="container-fluid">
+    <div class="card-deck">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <h5 class="card-title">静态网站搭建</h5>
+                <p class="card-text">包括 Web/Wap 开发的基本技术栈：HTML、CSS、HTML5、CSS3、JavaScript、jQuery</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-link text-primary bg-white">查看详情</a>
+            </div>
+        </div>
+        <div class="card bg-danger text-white">
+            <div class="card-body">
+                <h5 class="card-title">动态网站语言</h5>
+                <p class="card-text">包括 PHP、Node、ES6</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-link text-primary bg-white">查看详情</a>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-body">
+                <h5 class="card-title">前段框架学习</h5>
+                <p class="card-text">包括 Bootstrap、Express、Angular、Vue、React</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-link text-primary bg-white">查看详情</a>
+            </div>
+        </div>
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <h5 class="card-title">后端框架学习</h5>
+                <p class="card-text">包括 ThinkPHP、Yii2 等</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-link text-primary bg-white">查看详情</a>
+            </div>
+        </div>
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h5 class="card-title">服务器搭建运维</h5>
+                <p class="card-text">包括 Linux命令、shell脚本、LNMP搭建 等</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-link text-primary bg-white">查看详情</a>
+            </div>
+        </div>
+        <div class="card bg-secondary text-white">
+            <div class="card-body">
+                <h5 class="card-title">开发工具类</h5>
+                <p class="card-text">包括 Webpack、browserSync、gulp、docker 等</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-link text-primary bg-white">查看详情</a>
+            </div>
+        </div>
     </div>
 </div>
 
